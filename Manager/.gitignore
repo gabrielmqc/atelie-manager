@@ -1,0 +1,35 @@
+﻿# Compiled files
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Visual Studio settings
+.vs/
+
+# JetBrains Rider settings
+.idea/
+
+# EF Migrations snapshot (optional)
+Migrations/
+
+# Configs locais (mantém só o base no repositório)
+appsettings.Development.json
+
+# Others
+*.db
+*.sqlite
+*.bak
