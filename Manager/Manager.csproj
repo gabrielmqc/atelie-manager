@@ -14,12 +14,10 @@
 
     <ItemGroup>
       <Folder Include="Adapters\Inbound\Controllers\" />
-      <Folder Include="Adapters\Outbound\Entities\" />
-      <Folder Include="Adapters\Outbound\Repositories\" />
+      <Folder Include="Adapters\Outbound\" />
+      <Folder Include="Application\Dtos\Response\" />
       <Folder Include="Application\Services\" />
-      <Folder Include="Application\UseCases\" />
       <Folder Include="Infrastructure\Config\" />
-      <Folder Include="Utils\Mappers\" />
     </ItemGroup>
 
 </Project>
