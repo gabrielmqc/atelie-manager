@@ -11,10 +11,4 @@ public class AppDbContext : DbContext
         : base(options)
     {
     }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<ClotheEntity>().ToTable("Clothes");
-        base.OnModelCreating(modelBuilder);
-    }
 }
